@@ -51,7 +51,7 @@ public class ActivationResource {
 			return Response.status(200).entity(entity).build();
 		}catch(Exception e){
 			// TODO: handle exception
-			//TODO: Testing Github comm protocol 3 third 
+			//TODO: Testing Github comm protocol 4 fourth
 			e.printStackTrace();
 		}
 		return Response.status(401).build();
